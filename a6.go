@@ -5,7 +5,7 @@ import "fmt"
 
 func main() {
 
-var rate int=3
+var rate int=5
 
 switch rate {
 case 1:
@@ -22,7 +22,8 @@ fmt.Println("two stars")
 case 4:
 fmt.Println("Excellent")
 fmt.Println("three stars")
+
+default:
+fmt.Println("out of range")
 }
-
-
 }
